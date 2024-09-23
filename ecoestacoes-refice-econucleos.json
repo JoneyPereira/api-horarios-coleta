@@ -1,0 +1,113 @@
+{
+    "metadados": {
+      "cabecalho": {
+        "titulo": "Ecoestações e econúcleos do Recife",
+        "descricao": "Destinação de resíduos sólidos.",
+        "categoria_vcge": "http://vocab.e.gov.br/id/governo#servicos-urbanos",
+        "fonte_dados": "http://dados.recife.pe.gov.br",
+        "licenca": "Open Database License (ODbL)",
+        "responsavel_dados": "EMLURB",
+        "responsavel_disponibilizar": "Emprel",
+        "frequencia_atualizacao": "anual",
+        "endereco_dataset": "http://dados.recife.pe.gov.br/dataset/destinacao-de-residuos-solidos",
+        "status": "ativo",
+        "endereco_dataset_substituto": "",
+        "granularidade": "por ecoestações",
+        "etiquetas": "coleta seletiva, ecoestações, ecoestação, econúcleos, lixo, recicláveis, reciclável, resíduos, resíduos sólidos"
+      },
+      "recursos": [
+        {
+          "identificador": "http://dados.recife.pe.gov.br/dataset/destinacao-de-residuos-solidos/resource/2f3a8820-8680-4768-9f27-b5105239482a",
+          "titulo": "Ecoestações e econúcleos do Recife",
+          "formato": "csv",
+          "descricao": "Apresenta os dados georreferenciados dos pontos de descarte dos resíduos, descrevendo os tipos de resíduos que são recebidos em cada uma das ecoestações e econúcleos do Recife"
+        }
+      ],
+      "campos": [
+        {
+          "codigo": "tipo",
+          "descricao": "Tipo da estação",
+          "tipo": "Char",
+          "tamanho": 20,
+          "valores_permitidos": "ecoestação,econúcleo"
+        },
+        {
+          "codigo": "nome",
+          "descricao": "Nome da estação",
+          "tipo": "Char",
+          "tamanho": 30,
+          "valores_permitidos": ""
+        },
+        {
+          "codigo": "localizacao",
+          "descricao": "Local onde se encontra a estação",
+          "tipo": "Char",
+          "tamanho": 100,
+          "valores_permitidos": ""
+        },
+        {
+          "codigo": "detalhes",
+          "descricao": "Descreve detalhes da localizacao",
+          "tipo": "Char",
+          "tamanho": 200,
+          "valores_permitidos": ""
+        },
+        {
+          "codigo": "bairro",
+          "descricao": "Descriçăo do bairro",
+          "tipo": "Num",
+          "tamanho": 30,
+          "valores_permitidos": ""
+        },
+        {
+          "codigo": "resíduo_construcao_civil",
+          "descricao": "os gerados nas construções, reformas, reparos e demolições de obras de construção civil, incluídos os resultantes da preparação e escavação de terrenos para obras civis",
+          "tipo": "Char",
+          "tamanho": 3,
+          "valores_permitidos": "Sim, Não"
+        },
+        {
+          "codigo": "resíduo_volumoso",
+          "descricao": "serão considerados Resíduos Volumosos os resíduos constituídos basicamente por material volumoso não removido pela coleta domiciliar regular, como móveis e equipamentos domésticos inutilizados, grandes embalagens e peças de madeira e assemelhados; e o material proveniente de execução de poda e jardinagem.",
+          "tipo": "Char",
+          "tamanho": 3,
+          "valores_permitidos": "Sim, Não"
+        },
+        {
+          "codigo": "resíduo_reciclavel",
+          "descricao": "são compostos, principalmente, por metais (como aço e alumínio), papel, papelão, tetrapak, diferentes tipos de plásticos e vidro.",
+          "tipo": "Char",
+          "tamanho": 3,
+          "valores_permitidos": "Sim, Não"
+        },
+        {
+          "codigo": "resíduo_solido_organico",
+          "descricao": "os originários de atividades domésticas em residências urbanas, sempre que a Ecoestação possuir uma Caixa Compactadora Estacionária.",
+          "tipo": "Char",
+          "tamanho": 3,
+          "valores_permitidos": "Sim, Não"
+        },
+        {
+          "codigo": "rpa",
+          "descricao": "Região Politico Administrativa",
+          "tipo": "Num",
+          "tamanho": 1,
+          "valores_permitidos": "1,2,3,4,5,6"
+        },
+        {
+          "codigo": "latitude",
+          "descricao": "Coordenada geografica",
+          "tipo": "num",
+          "tamanho": 20,
+          "valores_permitidos": ""
+        },
+        {
+          "codigo": "longitude",
+          "descricao": "Coordenada geografica",
+          "tipo": "num",
+          "tamanho": 20,
+          "valores_permitidos": ""
+        }
+      ]
+    }
+  }

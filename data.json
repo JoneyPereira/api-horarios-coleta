@@ -1,0 +1,63 @@
+{
+   "permambuco": [
+      {
+         "id": 1,
+         "state": "Permambuco",
+         "city": "Palmares",
+         "neighborhood": "Centro",
+         "time": "18h00",
+       "daysOfWeek":["Segunda", "Terça", "Quarta", "Quinta", "Sexta", "Sabado", "Domingo"],
+       "shift":"Noturno"
+       },
+       {
+         "id": 2,
+         "state": "Permambuco",
+         "city": "Palmares",
+         "neighborhood": "Centro",
+         "time": "18h00",
+       "daysOfWeek":["Segunda", "Terça", "Quarta", "Quinta", "Sexta", "Sabado", "Domingo"],
+       "shift":"Noturno"
+       }
+   ],
+   "ceara": [
+      {
+         "id": 1,
+         "state": "Permambuco",
+         "city": "Palmares",
+         "neighborhood": "Centro",
+         "time": "18h00",
+       "daysOfWeek":["Segunda", "Terça", "Quarta", "Quinta", "Sexta", "Sabado", "Domingo"],
+       "shift":"Noturno"
+       },
+       {
+         "id": 2,
+         "state": "Permambuco",
+         "city": "Palmares",
+         "neighborhood": "Centro",
+         "time": "18h00",
+       "daysOfWeek":["Segunda", "Terça", "Quarta", "Quinta", "Sexta", "Sabado", "Domingo"],
+       "shift":"Noturno"
+       }
+   ],
+   "sao-paulo": [
+      {
+         "id": 1,
+         "state": "Permambuco",
+         "city": "Palmares",
+         "neighborhood": "Centro",
+         "time": "18h00",
+       "daysOfWeek":["Segunda", "Terça", "Quarta", "Quinta", "Sexta", "Sabado", "Domingo"],
+       "shift":"Noturno"
+       },
+       {
+         "id": 2,
+         "state": "Permambuco",
+         "city": "Palmares",
+         "neighborhood": "Centro",
+         "time": "18h00",
+       "daysOfWeek":["Segunda", "Terça", "Quarta", "Quinta", "Sexta", "Sabado", "Domingo"],
+       "shift":"Noturno"
+       }
+   ]
+ }
+ 
